@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta charset="uff-8">
+<meta name="description"  content="Java-Script Calculator">
+<meta name="viewport"  content="width=device-width ,intial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+        <title>SIGN UP FORM</title>
+        
+    </head>
+    <body>
+<h1 style="color: #282C35;"; >SIGN UP FORM</h1>
+<form id="myform" action="Response.html" method="get" class="details">
+<div class="details">
+    <label for="Fname">First Name</label>
+    <input type="text"id="Fname" name="Fname" required minlength="4" maxlength="15"required>
+<br>
+    <label for="Lname">Last Name</label>
+    <input type="text" name="Lname" id="Lname" required minlength="4" maxlength="15" required>
+    <br>
+    <label for="Email">Email</label>
+    <input type="email" name="email" id="email" required minlength="10" maxlength="25" required>
+
+    <br>
+    <label for="age">Age</label>
+    <input type="number" name="age" id="age" min="18" required>
+    <br>
+    <label for="Mobile carriers"> Choose your Mobile Carrier</label>
+    <select id="Mobile Carriers" required>
+<option value="Jio">Jio</option>
+<option value="Airtel">Airtel</option>
+<option value="Others">Other</option>
+    </select>
+    <br> 
+    <p>Do you have a license?</p>
+    <div>
+        <div>
+            <input type="radio" name="vehicle" id="choice_vehicle" required>
+            <label for="choice_vehicle">Yes</label>
+            <div class="reveal_if_yes">
+                <select name="vehicle" id="vehicle" required>
+                      <option value="car">Car</option>
+                      <option value="Bike">Two-wheeler</option>
+                      <option value="Heavy_vehicle">Heavy Vehicles</option>
+                </select><br>
+            </div>
+        </div>
+      
+       <div>
+           <input type="radio" name="vehicle" id="choice_vehicle">
+           <label for="choice_vehicle">No </label>
+      </div>
+      </div>
+<label for="source">How did you find about us?</label>
+         <select name="source" id="source"> 
+            <option value="Social Media">Social Media</option>
+              <option value="Friend">Friend</option>
+              <option value="Other Mass Media">Other Mass Media</option></select>
+              <br>
+<p>What are the skills you can offer?</p>
+<textarea id="skills" name="skills"rows="5" cols="33">
+    </textarea>
+    <br>
+  <input type="checkbox" id="terms" name="terms">
+  <label for="terms">I accept all the terms and conditions</label>
+  </div>
+  <button type="submit" class="submit" onclick>Submit</button>
+            \</form>
