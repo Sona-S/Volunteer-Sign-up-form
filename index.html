@@ -2,9 +2,9 @@
 <html>
     <head>
 <meta charset="uff-8">
-<meta name="description"  content="Java-Script Calculator">
+<meta name="description"  content="Volunteer-Sign-Up-form">
 <meta name="viewport"  content="width=device-width ,intial-scale=1">
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="style.css" href="https://fonts.googleapis.com/css?family=Open%20Sans" >
         <title>SIGN UP FORM</title>
         
     </head>
@@ -12,27 +12,27 @@
 <h1 style="color: #282C35;"; >SIGN UP FORM</h1>
 <form id="myform" action="Response.html" method="get" class="details">
 <div class="details">
-    <label for="Fname">First Name</label>
-    <input type="text"id="Fname" name="Fname" required minlength="4" maxlength="15"required>
+    <label for="Fname">First Name*</label>
+    <input type="text" name="Fname" required minlength="4" maxlength="15"required>
 <br>
-    <label for="Lname">Last Name</label>
-    <input type="text" name="Lname" id="Lname" required minlength="4" maxlength="15" required>
+    <label for="Lname">Last Name*</label>
+    <input type="text" name="Lname"  required minlength="4" maxlength="15" required>
     <br>
-    <label for="Email">Email</label>
-    <input type="email" name="email" id="email" required minlength="10" maxlength="25" required>
+    <label for="Email">Email*</label>
+    <input type="email" name="email"  required minlength="10" maxlength="25" required>
 
     <br>
-    <label for="age">Age</label>
-    <input type="number" name="age" id="age" min="18" required>
+    <label for="age">Age*</label>
+    <input type="number" name="age" min="18" required>
     <br>
-    <label for="Mobile carriers"> Choose your Mobile Carrier</label>
+    <label for="Mobile carriers"> Choose your Mobile Carrier*</label>
     <select id="Mobile Carriers" required>
 <option value="Jio">Jio</option>
 <option value="Airtel">Airtel</option>
 <option value="Others">Other</option>
     </select>
     <br> 
-    <p>Do you have a license?</p>
+    <p>Do you have a license?*</p>
     <div>
         <div>
             <input type="radio" name="vehicle" id="choice_vehicle" required>
@@ -51,18 +51,18 @@
            <label for="choice_vehicle">No </label>
       </div>
       </div>
-<label for="source">How did you find about us?</label>
-         <select name="source" id="source"> 
+<label for="source">How did you find about us?*</label>
+         <select name="source"  required> 
             <option value="Social Media">Social Media</option>
               <option value="Friend">Friend</option>
               <option value="Other Mass Media">Other Mass Media</option></select>
               <br>
 <p>What are the skills you can offer?</p>
-<textarea id="skills" name="skills"rows="5" cols="33">
+<textarea name="skills"rows="5" cols="33">
     </textarea>
     <br>
-  <input type="checkbox" id="terms" name="terms">
-  <label for="terms">I accept all the terms and conditions</label>
+  <input type="checkbox" name="terms" required>
+  <label for="terms">I accept all the terms and conditions*</label>
   </div>
   <button type="submit" class="submit" onclick>Submit</button>
             \</form>
